@@ -7,11 +7,13 @@ body {
 
 h1 {
   font-size: 28px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
   font-size: 24px;
-  color: rgb(85,85,85);
+  color: rgb(80,80,80);
 }
 
 h3 {
@@ -27,6 +29,7 @@ h3 {
 
 .img-film {
   width: 100px;
+  margin-right: 10px;
 }
 
 ul, li, a {
@@ -83,25 +86,14 @@ p {
 
 .btn {
   background: #ffffff;
-  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
-  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
-  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
   border-radius: 28px;
-  -webkit-box-shadow: 2px 2px 1px #dbdbdb;
-  -moz-box-shadow: 2px 2px 1px #dbdbdb;
   box-shadow: 2px 2px 1px #dbdbdb;
   font-family: Arial;
-  color: #fc4c02;
+  color: rgb(50,50,50);
   font-size: 13px;
   padding: 10px 20px 10px 20px;
-  border: solid #fc4c02 1px;
+  border: solid rgb(50,50,50) 1px;
   text-decoration: none;
+  margin-top: 10px;
 }
 
-.btn:hover {
-  text-decoration: none;
-}
