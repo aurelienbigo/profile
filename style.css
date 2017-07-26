@@ -1,0 +1,107 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background-color: rgb(245,245,245);
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+  color: rgb(85,85,85);
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: lighter;
+
+}
+
+#PP {
+  border-radius: 50%;
+  width: 20%;
+}
+
+.img-film {
+  width: 100px;
+}
+
+ul, li, a {
+  opacity: 0.9;
+  color: rgb(55,55,55);
+  padding: 1%;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+ul, li, a:hover {
+text-decoration: none;
+color: black;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+ul, li {
+  display: inline;
+}
+
+p {
+  font-size: 13px;
+}
+
+.table {
+  font-size: 12px;
+  padding: 1%;
+  text-align: left;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.btn {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+  background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+  background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  -webkit-box-shadow: 2px 2px 1px #dbdbdb;
+  -moz-box-shadow: 2px 2px 1px #dbdbdb;
+  box-shadow: 2px 2px 1px #dbdbdb;
+  font-family: Arial;
+  color: #fc4c02;
+  font-size: 13px;
+  padding: 10px 20px 10px 20px;
+  border: solid #fc4c02 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
